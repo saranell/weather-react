@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Weather from "./Weather";
 
 export default function SearchEngine() {
   const [city, setCity] = useState("");
@@ -6,7 +7,7 @@ export default function SearchEngine() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    setMessage(`It is 10° in ${city}`);
+    setMessage(`It is  in ${city}`);
   }
 
   function changeCity(event) {
