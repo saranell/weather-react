@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Weather from "./Weather";
 
 export default function SearchEngine() {
   const [city, setCity] = useState("");
